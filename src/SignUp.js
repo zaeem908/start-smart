@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function SignUp() {
     return(
         <form class="bg-gray-200 text-center m-auto w-1/3 px-3 py-4 text-white mx-auto rounded-xl mt-[5%]">
@@ -7,7 +9,7 @@ function SignUp() {
     <button class="bg-gray-400 my-3 text-white font-bold py-2 px-4 rounded-lg border block mx-auto w-full">
       Save
     </button>
-    <button className="text-gray-500 bg-gray-200">Already have an account? Login</button>
+    <button className="text-gray-500 bg-gray-200">Already have an account? <Link to={'/'}>Login</Link></button>
   </form>
     )
 }

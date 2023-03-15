@@ -14,12 +14,10 @@ function App() {
 
   return (
     <>
-    <Home/>
     <Routes>
       <Route path="/attendance" element={<Attendance/>}/>
       <Route path="/signup" element={<SignUp/>}/>
-      <Route path="/" element={<Starter/>}/>
-      <Route path="/login" element={<Login/>}/>
+      <Route path="/" element={<Login/>}/>
       <Route path="/sidebar" element={<Sidebar/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
       <Route path="/teachers" element={<Teachers/>}/>
