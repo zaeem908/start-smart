@@ -6,10 +6,10 @@ function SignUp() {
     <h3 className="text-4xl text-gray-400 font-extrabold p-5 mb-5">SignUp</h3>
   	<input type="text" placeholder="Username" class="block w-full mx-auto text-sm py-2 px-3 rounded" />
     <input type="text" placeholder="Password" class="block w-full mx-auto text-sm py-2 px-3 rounded my-3"/>
-    <button class="bg-gray-400 my-3 text-white font-bold py-2 px-4 rounded-lg border block mx-auto w-full">
+    <button class="bg-gray-400 my-3 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg border block mx-auto w-full">
       Save
     </button>
-    <button className="text-gray-500 bg-gray-200">Already have an account? <Link to={'/'}>Login</Link></button>
+    <p className="text-gray-500 bg-gray-200">Already have an account? <Link to={'/'} className='bg-gray-300  hover:bg-gray-500 hover:text-white p-2 rounded'>Login</Link></p>
   </form>
     )
 }

@@ -1,8 +1,10 @@
+import Home from "./Home";
 import Sidebar from "./Sidebar";
 
 function Dashboard() {
     return (
         <div>
+            <Home/>
             <Sidebar/>
         </div>
     )

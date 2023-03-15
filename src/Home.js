@@ -9,9 +9,6 @@ function Home() {
   </div>
   <div className="ml-auto">
     <ul className="flex mr-2">
-      <Link to="/sidebar" className=" mr-4 hover:bg-gray-400 mb-3 bg-gray-300 hover:text-white text-lg text-gray-500 p-4 rounded-xl">Class</Link>
-      <Link to="/contact" className=" mr-4 hover:bg-gray-400 mb-3 bg-gray-300 hover:text-white text-lg text-gray-500 p-4 rounded-xl">Contact</Link>
-      <Link to="/signup" className=" mr-4 hover:bg-gray-400 mb-3 bg-gray-300 hover:text-white text-lg text-gray-500 p-4 rounded-xl">Sign Up</Link>
       <Link to="/" className=" mr-4 hover:bg-gray-400 mb-3 bg-gray-300 hover:text-white text-lg text-gray-500 p-4 rounded-xl">Sign Out</Link>
     </ul>
   </div>
